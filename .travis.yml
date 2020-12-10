@@ -1,6 +1,10 @@
 language: c
 dist: trusty
 
+arch:
+  - amd64
+  - ppc64le
+
 install:
   - wget https://s3.amazonaws.com/biibinaries/thirdparty/cmake-3.0.2-Linux-64.tar.gz
   - tar -xzf cmake-3.0.2-Linux-64.tar.gz
